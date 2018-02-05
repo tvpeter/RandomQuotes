@@ -1,0 +1,36 @@
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: justify;
+  border-left: 15px solid;
+  border-right: 2px solid;
+}
+
+blockquote::before{
+  content: "\201C";
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+   content: "";
+}
+#author{color:#4682B4;}
+blockquote em{
+  font-style: italic;
+}
+blockquote footer{color:#4682B4;}
+.btn-tw{background:#4682B4; color:white;}
+.btn-tw:active, .btn-tw:visited, .btn-tw:link, .btn-tw:hover{
+  color:white;
+}
